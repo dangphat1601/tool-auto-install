@@ -1,4 +1,4 @@
-# tool-auto-install
+# FIREAPPS_PROJECT
 
 Run test:
 

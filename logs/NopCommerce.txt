@@ -1,0 +1,73 @@
+2021-04-19 14:23:36,750 INFO  shopify.createStoreAndInstallSwift - Pre-condition: Clear test data
+2021-04-19 14:23:46,771 INFO  shopify.createStoreAndInstallSwift - Pre-condition: Access Shopify
+2021-04-19 14:23:50,474 INFO  shopify.createStoreAndInstallSwift - Step 01: Press on Start free trial button
+2021-04-19 14:23:50,624 INFO  shopify.createStoreAndInstallSwift - Step 02: Fill info to register
+2021-04-19 14:23:54,078 INFO  shopify.createStoreAndInstallSwift - Step 03: Press Create your store button
+2021-04-19 14:24:03,978 INFO  shopify.createStoreAndInstallSwift - Step 04: Verify Create an account
+2021-04-19 14:24:07,024 INFO  shopify.createStoreAndInstallSwift - Step 05: Verify the user can create the store
+2021-04-19 14:24:18,064 INFO  shopify.createStoreAndInstallSwift -  -------------------------- PASSED -------------------------- 
+2021-04-19 14:24:18,065 INFO  shopify.createStoreAndInstallSwift - Step 06: Fill info at About yourself
+2021-04-19 14:24:27,409 INFO  shopify.createStoreAndInstallSwift - Step 07: Fill address
+2021-04-19 14:24:41,383 INFO  shopify.createStoreAndInstallSwift - Step 08: Verify the store has been created
+2021-04-19 14:24:47,772 INFO  shopify.createStoreAndInstallSwift -  -------------------------- PASSED -------------------------- 
+2021-04-19 14:24:47,772 INFO  shopify.createStoreAndInstallSwift - Step 09: Print store info
+2021-04-19 14:24:47,854 INFO  shopify.createStoreAndInstallSwift - Step 21: Select Apps menu
+2021-04-19 14:24:52,990 INFO  shopify.createStoreAndInstallSwift - Step 22: Visit Shopify App store
+2021-04-19 14:24:56,106 INFO  shopify.createStoreAndInstallSwift - Step 22a: Choose account to continue to shopify app
+2021-04-19 14:25:02,587 INFO  shopify.createStoreAndInstallSwift - Random delay
+2021-04-19 14:25:02,588 INFO  shopify.createStoreAndInstallSwift - Step 23: Search free Shopify app
+2021-04-19 14:25:15,201 INFO  shopify.createStoreAndInstallSwift - APP NAME (SHOPIFY): Google Channel
+2021-04-19 14:25:15,201 INFO  shopify.createStoreAndInstallSwift - Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:25:15,214 INFO  shopify.createStoreAndInstallSwift - Step 24: Select app
+2021-04-19 14:25:26,341 INFO  shopify.createStoreAndInstallSwift - Step 25: Select Apps menu
+2021-04-19 14:25:31,469 INFO  shopify.createStoreAndInstallSwift - Step 26: Visit Shopify App store
+2021-04-19 14:25:34,613 INFO  shopify.createStoreAndInstallSwift - Step 27: Search free Shopify app
+2021-04-19 14:25:49,102 INFO  shopify.createStoreAndInstallSwift - APP NAME (LIST 1): Spocket Dropshipping
+2021-04-19 14:25:49,102 INFO  shopify.createStoreAndInstallSwift - Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:25:49,103 INFO  shopify.createStoreAndInstallSwift - Step 28: Select app
+2021-04-19 14:26:15,352 INFO  shopify.createStoreAndInstallSwift - Step 29: Add random app to store
+2021-04-19 14:26:23,446 INFO  shopify.createStoreAndInstallSwift - Step 30: Select Apps menu
+2021-04-19 14:26:26,527 INFO  shopify.createStoreAndInstallSwift - Step 31: Visit Shopify App store
+2021-04-19 14:26:29,614 INFO  shopify.createStoreAndInstallSwift - Step 32 : Search app by keyword
+2021-04-19 14:26:42,329 INFO  shopify.createStoreAndInstallSwift - Step 33: Select Swift app
+2021-04-19 14:27:13,348 INFO  shopify.createStoreAndInstallSwift - Step 34: Add Swift app to store
+2021-04-19 14:27:19,588 INFO  shopify.createStoreAndInstallSwift - Step 35: Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:27:19,593 INFO  shopify.createStoreAndInstallSwift - Step 36: Add Swift app to store
+2021-04-19 14:27:35,245 INFO  shopify.createStoreAndInstallSwift - Step 37: Select Discount menu
+2021-04-19 14:27:43,545 INFO  shopify.createStoreAndInstallSwift - Step 38: Input random code name
+2021-04-19 14:27:46,702 INFO  shopify.createStoreAndInstallSwift - Step 39: Input random discount value
+2021-04-19 14:27:49,857 INFO  shopify.createStoreAndInstallSwift - Step 40: Check Limit to one use per customer
+2021-04-19 14:29:50,299 INFO  shopify.createStoreAndInstallSwift - Step 41: Select Apps menu
+2021-04-19 14:29:55,520 INFO  shopify.createStoreAndInstallSwift - Step 42: Visit Shopify App store
+2021-04-19 14:29:58,642 INFO  shopify.createStoreAndInstallSwift - Step 43: Search free Shopify app
+2021-04-19 14:30:13,434 INFO  shopify.createStoreAndInstallSwift - APP NAME (LIST 2) :GDPR Cookie Bar ePrivacy Page
+2021-04-19 14:30:13,434 INFO  shopify.createStoreAndInstallSwift - Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:30:13,435 INFO  shopify.createStoreAndInstallSwift - Step 44: Select app
+2021-04-19 14:30:35,690 INFO  shopify.createStoreAndInstallSwift - Step 45: Add random app to store
+2021-04-19 14:30:53,804 INFO  shopify.createStoreAndInstallSwift - Pre-condition: Access Shopify
+2021-04-19 14:30:55,169 INFO  shopify.createStoreAndInstallSwift - Step 01: Press on Start free trial button
+2021-04-19 14:30:55,421 INFO  shopify.createStoreAndInstallSwift - Step 02: Fill info to register
+2021-04-19 14:30:58,879 INFO  shopify.createStoreAndInstallSwift - Step 03: Press Create your store button
+2021-04-19 14:31:08,719 INFO  shopify.createStoreAndInstallSwift - Step 04: Verify Create an account
+2021-04-19 14:31:11,755 INFO  shopify.createStoreAndInstallSwift - Step 05: Verify the user can create the store
+2021-04-19 14:31:20,575 INFO  shopify.createStoreAndInstallSwift -  -------------------------- PASSED -------------------------- 
+2021-04-19 14:31:20,575 INFO  shopify.createStoreAndInstallSwift - Step 06: Fill info at About yourself
+2021-04-19 14:31:25,831 INFO  shopify.createStoreAndInstallSwift - Step 07: Fill address
+2021-04-19 14:31:43,879 INFO  shopify.createStoreAndInstallSwift - Step 08: Verify the store has been created
+2021-04-19 14:31:43,909 INFO  shopify.createStoreAndInstallSwift -  -------------------------- PASSED -------------------------- 
+2021-04-19 14:31:43,909 INFO  shopify.createStoreAndInstallSwift - Step 09: Print store info
+2021-04-19 14:31:43,930 INFO  shopify.createStoreAndInstallSwift - Step 21: Select Apps menu
+2021-04-19 14:31:49,051 INFO  shopify.createStoreAndInstallSwift - Step 22: Visit Shopify App store
+2021-04-19 14:31:52,173 INFO  shopify.createStoreAndInstallSwift - Step 22a: Choose account to continue to shopify app
+2021-04-19 14:31:57,028 INFO  shopify.createStoreAndInstallSwift - Random delay
+2021-04-19 14:31:57,028 INFO  shopify.createStoreAndInstallSwift - Step 23: Search free Shopify app
+2021-04-19 14:32:10,110 INFO  shopify.createStoreAndInstallSwift - APP NAME (SHOPIFY): Google Channel
+2021-04-19 14:32:10,110 INFO  shopify.createStoreAndInstallSwift - Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:32:10,111 INFO  shopify.createStoreAndInstallSwift - Step 24: Select app
+2021-04-19 14:32:21,219 INFO  shopify.createStoreAndInstallSwift - Step 25: Select Apps menu
+2021-04-19 14:32:26,319 INFO  shopify.createStoreAndInstallSwift - Step 26: Visit Shopify App store
+2021-04-19 14:32:29,408 INFO  shopify.createStoreAndInstallSwift - Step 27: Search free Shopify app
+2021-04-19 14:32:43,928 INFO  shopify.createStoreAndInstallSwift - APP NAME (LIST 1): Multichannel Importer
+2021-04-19 14:32:43,928 INFO  shopify.createStoreAndInstallSwift - Write data to the csv20210419_142336_Swift.csv
+2021-04-19 14:32:43,929 INFO  shopify.createStoreAndInstallSwift - Step 28: Select app
+2021-04-19 14:33:24,576 INFO  shopify.createStoreAndInstallSwift - Step 29: Add random app to store

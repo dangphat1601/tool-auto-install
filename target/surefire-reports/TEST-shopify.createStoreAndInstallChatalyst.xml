@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="shopify.createStoreAndInstallChatalyst" time="3,414.096" tests="30" errors="0" skipped="0" failures="30">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/Administrator/Desktop/tool-auto-install"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="createStoreAndInstallChatalyst"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\Desktop\tool-auto-install"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="C:/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=createStoreAndInstallChatalyst test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="53.397">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:03:39,845 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Clear test data
+2021-02-10 15:03:40,155 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:03:51,376 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:03:52,045 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:03:55,914 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:04:00,404 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:04:03,474 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 38847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1612944217.410][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1612944217.422][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Feb 10, 2021 3:03:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="114.221">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/syncee-1?surface_detail=Spocket+Dropshipping&amp;amp;surface_inter_position=1&amp;amp;surface_intra_position=13&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (575, 902). Other element would receive the click: &lt;div class=&quot;cookies-notice js-is-active&quot; role=&quot;region&quot; aria-label=&quot;cookie policy&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/syncee-1?surface_detail=Spocket+Dropshipping&amp;surface_inter_position=1&amp;surface_intra_position=13&amp;surface_type=search">...</a> is not clickable at point (575, 902). Other element would receive the click: <div class="cookies-notice js-is-active" role="region" aria-label="cookie policy">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:198)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:04:33,543 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:04:35,267 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:04:35,742 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:04:40,119 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:04:51,859 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:04:54,975 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:05:10,539 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:05:10,544 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:05:16,198 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Bhutan
+There is no State or Province for this country
+2021-02-10 15:05:32,044 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:05:43,037 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:05:43,038 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://jolie-emard.myshopify.com
+Account info:
+Email: jolie_emard@mail.com
+Store Name: Jolie Emard
+Store type: Free
+Password: Iliana58
+Address: 64718 Roberts Road
+City: Alishastad
+Country: Bhutan
+Created time: 10/02/2021 15:05:43
+2021-02-10 15:05:43,121 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:05:48,662 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:05:52,249 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:06:07,998 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:06:23,517 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="36.303">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:06:27,715 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:06:33,610 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="518.014">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:373)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:07:04,067 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:07:09,152 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:07:09,803 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:07:14,019 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:07:24,430 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:07:27,545 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:07:41,947 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:07:41,948 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:07:47,678 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Timor-Leste
+There is no State or Province for this country
+2021-02-10 15:08:11,910 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:08:14,000 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:08:14,001 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://talia-rodriguez.myshopify.com
+Account info:
+Email: talia_rodriguez@mail.com
+Store Name: Talia Rodriguez
+Store type: Free
+Password: Tomasa5
+Address: 9861 Stroman Lock
+City: Walterville
+Country: Timor-Leste
+Created time: 10/02/2021 15:08:14
+2021-02-10 15:08:14,140 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:08:19,945 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:08:23,485 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:08:26,573 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:08:41,422 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+2021-02-10 15:09:25,400 INFO  shopify.createStoreAndInstallChatalyst - Step 14: Add random app to store
+2021-02-10 15:09:33,534 INFO  shopify.createStoreAndInstallChatalyst - Step 26: Select Apps menu
+2021-02-10 15:09:38,748 INFO  shopify.createStoreAndInstallChatalyst - Step 27: Visit Shopify App store
+2021-02-10 15:09:42,282 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:09:42,284 INFO  shopify.createStoreAndInstallChatalyst - Step 28: Search free Shopify app
+2021-02-10 15:09:59,410 INFO  shopify.createStoreAndInstallChatalyst - Step 29: Select app
+2021-02-10 15:10:50,209 INFO  shopify.createStoreAndInstallChatalyst - Step 30: Select Apps menu
+2021-02-10 15:10:55,393 INFO  shopify.createStoreAndInstallChatalyst - Step 31: Visit Shopify App store
+2021-02-10 15:10:58,848 INFO  shopify.createStoreAndInstallChatalyst - Step 32: Search free Shopify app
+2021-02-10 15:11:16,576 INFO  shopify.createStoreAndInstallChatalyst - Step 33: Select app
+2021-02-10 15:11:45,117 INFO  shopify.createStoreAndInstallChatalyst - Step 34: Add random app to store
+2021-02-10 15:11:53,224 INFO  shopify.createStoreAndInstallChatalyst - Step 35: Select Apps menu
+2021-02-10 15:11:58,394 INFO  shopify.createStoreAndInstallChatalyst - Step 36: Visit Shopify App store
+2021-02-10 15:12:01,763 INFO  shopify.createStoreAndInstallChatalyst - Step 37: Search free Shopify app
+2021-02-10 15:12:20,252 INFO  shopify.createStoreAndInstallChatalyst - Step 38: Select app
+2021-02-10 15:13:10,908 INFO  shopify.createStoreAndInstallChatalyst - Step 39: Add random app to store
+2021-02-10 15:13:19,049 INFO  shopify.createStoreAndInstallChatalyst - Step 40: Select Discount menu
+2021-02-10 15:13:27,698 INFO  shopify.createStoreAndInstallChatalyst - Step 41: Input random code name
+2021-02-10 15:13:31,207 INFO  shopify.createStoreAndInstallChatalyst - Step 42: Input random discount value
+2021-02-10 15:13:34,583 INFO  shopify.createStoreAndInstallChatalyst - Step 43: Check Limit to one use per customer
+2021-02-10 15:15:29,918 INFO  shopify.createStoreAndInstallChatalyst - Step 44: Select Apps menu
+2021-02-10 15:15:33,553 INFO  shopify.createStoreAndInstallChatalyst - Step 45: Visit Shopify App store
+2021-02-10 15:15:37,147 INFO  shopify.createStoreAndInstallChatalyst - Step 46 : Search app by keyword
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="33.048">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:15:42,094 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:15:44,741 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="609.97">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/chatalyst?surface_detail=FAQ&amp;amp;surface_inter_position=2&amp;amp;surface_intra_position=24&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (999, 902). Other element would receive the click: &lt;div class=&quot;cookies-notice js-is-active&quot; role=&quot;region&quot; aria-label=&quot;cookie policy&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/chatalyst?surface_detail=FAQ&amp;surface_inter_position=2&amp;surface_intra_position=24&amp;surface_type=search">...</a> is not clickable at point (999, 902). Other element would receive the click: <div class="cookies-notice js-is-active" role="region" aria-label="cookie policy">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:383)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:16:15,139 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:16:19,960 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:16:20,542 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:16:24,880 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:16:35,116 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:16:38,158 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:16:52,869 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:16:52,869 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:16:58,556 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Indonesia
+2021-02-10 15:17:12,115 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:17:25,628 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:17:25,631 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://conrad-bartoletti.myshopify.com
+Account info:
+Email: conrad_bartoletti@mail.com
+Store Name: Conrad Bartoletti
+Store type: Free
+Password: Noemi35
+Address: 4501 McDermott Wells
+City: East Chelseaburgh
+Country: Indonesia
+Created time: 10/02/2021 15:17:25
+2021-02-10 15:17:25,713 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:17:31,237 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:17:34,817 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:17:37,882 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:17:52,786 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+2021-02-10 15:18:31,462 INFO  shopify.createStoreAndInstallChatalyst - Step 14: Add random app to store
+2021-02-10 15:18:40,722 INFO  shopify.createStoreAndInstallChatalyst - Step 26: Select Apps menu
+2021-02-10 15:18:45,891 INFO  shopify.createStoreAndInstallChatalyst - Step 27: Visit Shopify App store
+2021-02-10 15:18:49,337 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:18:49,339 INFO  shopify.createStoreAndInstallChatalyst - Step 28: Search free Shopify app
+2021-02-10 15:19:07,396 INFO  shopify.createStoreAndInstallChatalyst - Step 29: Select app
+2021-02-10 15:20:07,530 INFO  shopify.createStoreAndInstallChatalyst - Step 30: Select Apps menu
+2021-02-10 15:20:12,765 INFO  shopify.createStoreAndInstallChatalyst - Step 31: Visit Shopify App store
+2021-02-10 15:20:16,121 INFO  shopify.createStoreAndInstallChatalyst - Step 32: Search free Shopify app
+2021-02-10 15:20:33,119 INFO  shopify.createStoreAndInstallChatalyst - Step 33: Select app
+2021-02-10 15:21:34,036 INFO  shopify.createStoreAndInstallChatalyst - Step 34: Add random app to store
+2021-02-10 15:21:42,174 INFO  shopify.createStoreAndInstallChatalyst - Step 35: Select Apps menu
+2021-02-10 15:21:47,367 INFO  shopify.createStoreAndInstallChatalyst - Step 36: Visit Shopify App store
+2021-02-10 15:21:50,807 INFO  shopify.createStoreAndInstallChatalyst - Step 37: Search free Shopify app
+2021-02-10 15:22:08,957 INFO  shopify.createStoreAndInstallChatalyst - Step 38: Select app
+2021-02-10 15:23:02,897 INFO  shopify.createStoreAndInstallChatalyst - Step 39: Add random app to store
+2021-02-10 15:23:11,029 INFO  shopify.createStoreAndInstallChatalyst - Step 40: Select Discount menu
+2021-02-10 15:23:20,147 INFO  shopify.createStoreAndInstallChatalyst - Step 41: Input random code name
+2021-02-10 15:23:23,681 INFO  shopify.createStoreAndInstallChatalyst - Step 42: Input random discount value
+2021-02-10 15:23:26,932 INFO  shopify.createStoreAndInstallChatalyst - Step 43: Check Limit to one use per customer
+2021-02-10 15:25:27,533 INFO  shopify.createStoreAndInstallChatalyst - Step 44: Select Apps menu
+2021-02-10 15:25:31,141 INFO  shopify.createStoreAndInstallChatalyst - Step 45: Visit Shopify App store
+2021-02-10 15:25:34,741 INFO  shopify.createStoreAndInstallChatalyst - Step 46 : Search app by keyword
+2021-02-10 15:25:48,530 INFO  shopify.createStoreAndInstallChatalyst - Step 47: Select Chatalyst app
+start false
+while inside 0
+while inside 1
+while inside 2
+while inside 3
+while inside 4
+end while false
+start false
+while inside 0
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="32.894">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:26:25,112 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:26:27,469 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="264.846">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/ultimate-gdpr-eu-cookie-bar?surface_detail=Easy+GDPR+%2B+Cookie+Bar&amp;amp;surface_inter_position=1&amp;amp;surface_intra_position=11&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (584, 891). Other element would receive the click: &lt;div class=&quot;grid&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/ultimate-gdpr-eu-cookie-bar?surface_detail=Easy+GDPR+%2B+Cookie+Bar&amp;surface_inter_position=1&amp;surface_intra_position=11&amp;surface_type=search">...</a> is not clickable at point (584, 891). Other element would receive the click: <div class="grid">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:316)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:26:58,004 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:27:03,251 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:27:03,851 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:27:08,107 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:27:18,392 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:27:21,445 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:27:36,548 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:27:36,549 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:27:42,147 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Trinidad & Tobago
+There is no State or Province for this country
+2021-02-10 15:28:00,685 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:28:08,285 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:28:08,287 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://justina-jacobson.myshopify.com
+Account info:
+Email: justina_jacobson@mail.com
+Store Name: Justina Jacobson
+Store type: Free
+Password: Kaitlyn66
+Address: 4755 Lesley Freeway
+City: Whitebury
+Country: Trinidad & Tobago
+Created time: 10/02/2021 15:28:08
+2021-02-10 15:28:08,341 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:28:13,949 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:28:17,329 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:28:20,393 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:28:35,368 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+2021-02-10 15:29:20,934 INFO  shopify.createStoreAndInstallChatalyst - Step 14: Add random app to store
+2021-02-10 15:29:29,069 INFO  shopify.createStoreAndInstallChatalyst - Step 26: Select Apps menu
+2021-02-10 15:29:34,283 INFO  shopify.createStoreAndInstallChatalyst - Step 27: Visit Shopify App store
+2021-02-10 15:29:37,595 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:29:37,596 INFO  shopify.createStoreAndInstallChatalyst - Step 28: Search free Shopify app
+2021-02-10 15:29:56,118 INFO  shopify.createStoreAndInstallChatalyst - Step 29: Select app
+2021-02-10 15:30:46,355 INFO  shopify.createStoreAndInstallChatalyst - Step 30: Select Apps menu
+2021-02-10 15:30:51,510 INFO  shopify.createStoreAndInstallChatalyst - Step 31: Visit Shopify App store
+2021-02-10 15:30:54,837 INFO  shopify.createStoreAndInstallChatalyst - Step 32: Search free Shopify app
+2021-02-10 15:31:12,476 INFO  shopify.createStoreAndInstallChatalyst - Step 33: Select app
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="34.664">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:31:22,851 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:31:27,143 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="98.166">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/syncee-1?surface_detail=Spocket+Dropshipping&amp;amp;surface_inter_position=1&amp;amp;surface_intra_position=13&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (575, 902). Other element would receive the click: &lt;div class=&quot;cookies-notice js-is-active&quot; role=&quot;region&quot; aria-label=&quot;cookie policy&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/syncee-1?surface_detail=Spocket+Dropshipping&amp;surface_inter_position=1&amp;surface_intra_position=13&amp;surface_type=search">...</a> is not clickable at point (575, 902). Other element would receive the click: <div class="cookies-notice js-is-active" role="region" aria-label="cookie policy">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:198)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:31:57,514 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:31:59,782 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:32:00,549 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:32:04,960 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:32:15,130 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:32:18,196 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:32:32,432 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:32:32,433 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:32:38,369 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Bahamas
+There is no State or Province for this country
+2021-02-10 15:32:56,638 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:33:04,032 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:33:04,033 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://freeman-cassin.myshopify.com
+Account info:
+Email: freeman_cassin@mail.com
+Store Name: Freeman Cassin
+Store type: Free
+Password: Elinore17
+Address: 17675 Schneider Camp
+City: West Tristonstad
+Country: Bahamas
+Created time: 10/02/2021 15:33:04
+2021-02-10 15:33:04,103 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:33:09,658 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:33:13,201 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:33:16,257 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:33:31,432 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="35.182">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:33:35,683 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:33:40,462 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="520.564">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/chatalyst?surface_detail=live+chat&amp;amp;surface_inter_position=1&amp;amp;surface_intra_position=24&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (999, 902). Other element would receive the click: &lt;div class=&quot;cookies-notice js-is-active&quot; role=&quot;region&quot; aria-label=&quot;cookie policy&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/chatalyst?surface_detail=live+chat&amp;surface_inter_position=1&amp;surface_intra_position=24&amp;surface_type=search">...</a> is not clickable at point (999, 902). Other element would receive the click: <div class="cookies-notice js-is-active" role="region" aria-label="cookie policy">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:383)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:34:10,863 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:34:15,298 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:34:15,757 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:34:19,781 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:34:30,072 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:34:33,125 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:34:46,226 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:34:46,227 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:34:51,707 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Andorra
+There is no State or Province for this country
+2021-02-10 15:35:07,413 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:35:14,910 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:35:14,911 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://anahi-fisher.myshopify.com
+Account info:
+Email: anahi_fisher@mail.com
+Store Name: Anahi Fisher
+Store type: Free
+Password: Kimberly96
+Address: 5591 Lily Mountain
+City: New Derek
+Country: Andorra
+Created time: 10/02/2021 15:35:14
+2021-02-10 15:35:14,969 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:35:20,514 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:35:24,128 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:35:27,197 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:35:42,035 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+2021-02-10 15:36:27,416 INFO  shopify.createStoreAndInstallChatalyst - Step 14: Add random app to store
+2021-02-10 15:36:35,845 INFO  shopify.createStoreAndInstallChatalyst - Step 26: Select Apps menu
+2021-02-10 15:36:41,038 INFO  shopify.createStoreAndInstallChatalyst - Step 27: Visit Shopify App store
+2021-02-10 15:36:44,399 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:36:44,400 INFO  shopify.createStoreAndInstallChatalyst - Step 28: Search free Shopify app
+2021-02-10 15:37:01,177 INFO  shopify.createStoreAndInstallChatalyst - Step 29: Select app
+2021-02-10 15:37:50,165 INFO  shopify.createStoreAndInstallChatalyst - Step 30: Select Apps menu
+2021-02-10 15:37:55,338 INFO  shopify.createStoreAndInstallChatalyst - Step 31: Visit Shopify App store
+2021-02-10 15:37:58,721 INFO  shopify.createStoreAndInstallChatalyst - Step 32: Search free Shopify app
+2021-02-10 15:38:15,247 INFO  shopify.createStoreAndInstallChatalyst - Step 33: Select app
+2021-02-10 15:38:41,941 INFO  shopify.createStoreAndInstallChatalyst - Step 34: Add random app to store
+2021-02-10 15:38:50,239 INFO  shopify.createStoreAndInstallChatalyst - Step 35: Select Apps menu
+2021-02-10 15:38:55,380 INFO  shopify.createStoreAndInstallChatalyst - Step 36: Visit Shopify App store
+2021-02-10 15:38:58,684 INFO  shopify.createStoreAndInstallChatalyst - Step 37: Search free Shopify app
+2021-02-10 15:39:16,472 INFO  shopify.createStoreAndInstallChatalyst - Step 38: Select app
+2021-02-10 15:39:56,836 INFO  shopify.createStoreAndInstallChatalyst - Step 39: Add random app to store
+2021-02-10 15:40:05,005 INFO  shopify.createStoreAndInstallChatalyst - Step 40: Select Discount menu
+2021-02-10 15:40:13,851 INFO  shopify.createStoreAndInstallChatalyst - Step 41: Input random code name
+2021-02-10 15:40:17,347 INFO  shopify.createStoreAndInstallChatalyst - Step 42: Input random discount value
+2021-02-10 15:40:20,704 INFO  shopify.createStoreAndInstallChatalyst - Step 43: Check Limit to one use per customer
+2021-02-10 15:42:15,983 INFO  shopify.createStoreAndInstallChatalyst - Step 44: Select Apps menu
+2021-02-10 15:42:19,552 INFO  shopify.createStoreAndInstallChatalyst - Step 45: Visit Shopify App store
+2021-02-10 15:42:22,899 INFO  shopify.createStoreAndInstallChatalyst - Step 46 : Search app by keyword
+2021-02-10 15:42:48,119 INFO  shopify.createStoreAndInstallChatalyst - Step 47: Select Chatalyst app
+start false
+while inside 0
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="32.638">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:42:51,401 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:42:53,762 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="98.104">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://apps.shopify.com/syncee-1?surface_detail=DSers+AliExpress+Dropshipping&amp;amp;surface_inter_position=1&amp;amp;surface_intra_position=20&amp;amp;surface_type=search&quot;&gt;...&lt;/a&gt; is not clickable at point (1001, 902). Other element would receive the click: &lt;div class=&quot;cookies-notice js-is-active&quot; role=&quot;region&quot; aria-label=&quot;cookie policy&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;vultr-guest&apos;, ip: &apos;45.32.115.157&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://apps.shopify.com/syncee-1?surface_detail=DSers+AliExpress+Dropshipping&amp;surface_inter_position=1&amp;surface_intra_position=20&amp;surface_type=search">...</a> is not clickable at point (1001, 902). Other element would receive the click: <div class="cookies-notice js-is-active" role="region" aria-label="cookie policy">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:198)
+]]></failure>
+    <system-out><![CDATA[2021-02-10 15:43:24,065 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:43:30,182 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:43:30,687 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:43:34,710 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:43:45,200 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:43:48,221 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+2021-02-10 15:44:01,723 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:44:01,724 INFO  shopify.createStoreAndInstallChatalyst - Step 06: Fill info at About yourself
+2021-02-10 15:44:07,256 INFO  shopify.createStoreAndInstallChatalyst - Step 07: Fill address
+Country: Switzerland
+There is no State or Province for this country
+2021-02-10 15:44:28,397 INFO  shopify.createStoreAndInstallChatalyst - Step 08: Verify the store has been created
+2021-02-10 15:44:29,706 INFO  shopify.createStoreAndInstallChatalyst -  -------------------------- PASSED -------------------------- 
+2021-02-10 15:44:29,710 INFO  shopify.createStoreAndInstallChatalyst - Step 09: Print store info
+Store URL: https://royal-rowe.myshopify.com
+Account info:
+Email: royal_rowe@mail.com
+Store Name: Royal Rowe
+Store type: Free
+Password: Weston49
+Address: 9650 Rice Curve
+City: New Serenitystad
+Country: Switzerland
+Created time: 10/02/2021 15:44:29
+2021-02-10 15:44:29,760 INFO  shopify.createStoreAndInstallChatalyst - Step 10: Select Apps menu
+2021-02-10 15:44:35,338 INFO  shopify.createStoreAndInstallChatalyst - Step 11: Visit Shopify App store
+2021-02-10 15:44:38,763 INFO  shopify.createStoreAndInstallChatalyst - Random delay
+2021-02-10 15:44:41,837 INFO  shopify.createStoreAndInstallChatalyst - Step 12: Search import product app
+2021-02-10 15:44:57,945 INFO  shopify.createStoreAndInstallChatalyst - Step 13: Select app
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="35.831">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class=&apos;marketing-nav__items marketing-nav__user display--expanded-nav&apos;]//input[@value=&apos;Start free trial&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//ul[@class='marketing-nav__items marketing-nav__user display--expanded-nav']//input[@value='Start free trial']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:90)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:45:02,168 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:45:07,702 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="52.28">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:45:38,000 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:45:42,300 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:45:42,829 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:45:46,958 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:45:57,194 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:46:00,224 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="59.359">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:46:30,282 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:46:36,134 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:46:36,617 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:46:40,628 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:46:49,652 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:46:56,558 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:46:59,577 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="59.68">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:47:29,644 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:47:34,405 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:47:34,931 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:47:38,887 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:47:49,517 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:47:56,210 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:47:59,240 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="61.963">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:48:29,321 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:48:32,160 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:48:32,584 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:48:37,286 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:48:48,155 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:48:54,265 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:48:59,181 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="62.978">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:49:31,289 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:49:40,235 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:49:40,651 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:49:44,549 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:49:54,915 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:50:01,133 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:50:04,220 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="65.593">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:50:34,262 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:50:38,571 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:50:39,083 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:50:43,432 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:50:52,094 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:50:58,109 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:51:04,794 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="61.261">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:51:39,855 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:51:45,208 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:51:45,728 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:51:49,819 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:52:01,431 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:52:07,899 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:52:11,025 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="59.782">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:52:41,116 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:52:47,858 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:52:48,483 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:52:52,463 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:53:01,607 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:53:07,740 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:53:10,864 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="55.429">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:53:40,900 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:53:43,632 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:53:44,087 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:53:48,564 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:53:57,123 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:54:03,216 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:54:06,262 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="56.526">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:54:36,331 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:54:40,399 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:54:40,960 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:54:44,987 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:54:53,636 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:54:59,735 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:55:02,788 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="59.317">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:55:32,858 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:55:37,318 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:55:37,832 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:55:41,788 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:55:52,510 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:55:58,973 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:56:02,115 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="60.318">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:56:32,174 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:56:37,204 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:56:37,713 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:56:41,856 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:56:52,568 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:56:59,410 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:57:02,458 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="57.899">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:57:32,491 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:57:37,652 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:57:38,089 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:57:42,039 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:57:50,629 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:57:57,233 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:58:00,325 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="59.172">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:58:30,390 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:58:34,732 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:58:35,222 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:58:39,019 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:58:49,998 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:58:56,444 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:58:59,503 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+  <testcase name="TC01_CreateShopifyStore" classname="shopify.createStoreAndInstallChatalyst" time="54.863">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()=&apos;Tell us a little about yourself&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[text()='Tell us a little about yourself'] (tried for 30 second(s) with 500 milliseconds interval)
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Tell us a little about yourself']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vultr-guest', ip: '45.32.115.157', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b5c0b70cac0d945b9510b72b5a9c3b
+*** Element info: {Using=xpath, value=//h1[text()='Tell us a little about yourself']}
+	at shopify.createStoreAndInstallChatalyst.TC01_CreateShopifyStore(createStoreAndInstallChatalyst.java:127)
+</failure>
+    <system-out><![CDATA[2021-02-10 15:59:29,563 INFO  shopify.createStoreAndInstallChatalyst - Pre-condition: Access Shopify
+2021-02-10 15:59:31,895 INFO  shopify.createStoreAndInstallChatalyst - Step 01: Press on Start free trial button
+2021-02-10 15:59:32,534 INFO  shopify.createStoreAndInstallChatalyst - Step 02: Fill info to register
+2021-02-10 15:59:36,581 INFO  shopify.createStoreAndInstallChatalyst - Step 03: Press Create your store button
+2021-02-10 15:59:45,247 INFO  shopify.createStoreAndInstallChatalyst - Too many requets
+2021-02-10 15:59:51,279 INFO  shopify.createStoreAndInstallChatalyst - Step 04: Verify Create an account
+2021-02-10 15:59:54,304 INFO  shopify.createStoreAndInstallChatalyst - Step 05: Verify the user can create the store
+]]></system-out>
+  </testcase>
+</testsuite>

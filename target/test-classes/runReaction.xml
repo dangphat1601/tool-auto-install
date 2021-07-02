@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create Shopify Store" parallel="false">
+
+
+    <test name="RUN ON CHROME UI">
+        <parameter name="browser" value="chrome_headless" />
+        <classes>
+            <class name="shopify.reactionRate" />
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

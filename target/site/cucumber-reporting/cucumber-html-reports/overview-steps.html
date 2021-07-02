@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CHECK FUNCTIONS FOR FIREAPPS.IO</td>
+              <td>1</td>
+            <td>25 Jun 2020, 12:05</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">WebsiteSteps.i_access_the_something_from_header(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="682122279">0.682</td>
+              <td class="duration" data-value="682122279">1.061</td>
+              <td class="duration" data-value="4092733676">4.092</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_access_the_website()</td>
+              <td>9</td>
+              <td class="duration" data-value="5882929288">5.882</td>
+              <td class="duration" data-value="5882929288">8.567</td>
+              <td class="duration" data-value="52946363594">52.946</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_back_to_home_page()</td>
+              <td>9</td>
+              <td class="duration" data-value="735477505">0.735</td>
+              <td class="duration" data-value="735477505">1.296</td>
+              <td class="duration" data-value="6619297545">6.619</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_1st_blog_post_at_home_page_work_well()</td>
+              <td>1</td>
+              <td class="duration" data-value="1372784633">1.372</td>
+              <td class="duration" data-value="1372784633">1.372</td>
+              <td class="duration" data-value="1372784633">1.372</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_2nd_blog_post_at_home_page_work_well()</td>
+              <td>1</td>
+              <td class="duration" data-value="956091932">0.956</td>
+              <td class="duration" data-value="956091932">0.956</td>
+              <td class="duration" data-value="956091932">0.956</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_3rd_blog_post_at_home_page_work_well()</td>
+              <td>1</td>
+              <td class="duration" data-value="819664903">0.819</td>
+              <td class="duration" data-value="819664903">0.819</td>
+              <td class="duration" data-value="819664903">0.819</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_ali_hunter_app_from_the_slider()</td>
+              <td>1</td>
+              <td class="duration" data-value="1249345689">1.249</td>
+              <td class="duration" data-value="1249345689">1.249</td>
+              <td class="duration" data-value="1249345689">1.249</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_ali_orders_app_from_the_slider()</td>
+              <td>1</td>
+              <td class="duration" data-value="2152116106">2.152</td>
+              <td class="duration" data-value="2152116106">2.152</td>
+              <td class="duration" data-value="2152116106">2.152</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_ali_review_app_from_the_slider()</td>
+              <td>1</td>
+              <td class="duration" data-value="1184600687">1.184</td>
+              <td class="duration" data-value="1184600687">1.184</td>
+              <td class="duration" data-value="1184600687">1.184</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_check_the_sales_box_app_from_the_slider()</td>
+              <td>1</td>
+              <td class="duration" data-value="1202889352">1.202</td>
+              <td class="duration" data-value="1202889352">1.202</td>
+              <td class="duration" data-value="1202889352">1.202</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_on_back_to_all_changes_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="615971749">0.615</td>
+              <td class="duration" data-value="615971749">0.678</td>
+              <td class="duration" data-value="4927773998">4.927</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_on_get_app_now_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="813731669">0.813</td>
+              <td class="duration" data-value="813731669">0.813</td>
+              <td class="duration" data-value="813731669">0.813</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_on_the_something_checkbox(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="1403570573">1.403</td>
+              <td class="duration" data-value="1403570573">1.456</td>
+              <td class="duration" data-value="5614282293">5.614</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_to_get_app_button_of_something_app(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="297752436">0.297</td>
+              <td class="duration" data-value="297752436">0.771</td>
+              <td class="duration" data-value="1191009747">1.191</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_to_search_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="474271185">0.474</td>
+              <td class="duration" data-value="474271185">0.475</td>
+              <td class="duration" data-value="948542370">0.948</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_to_something_from_the_footer(String)</td>
+              <td>11</td>
+              <td class="duration" data-value="3329542100">3.329</td>
+              <td class="duration" data-value="3329542100">13.248</td>
+              <td class="duration" data-value="36624963104">36.624</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_to_something_social_icon_in_the_footer(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="507945636">0.507</td>
+              <td class="duration" data-value="507945636">1.257</td>
+              <td class="duration" data-value="2031782544">2.031</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_click_to_view_all_blogs_link()</td>
+              <td>1</td>
+              <td class="duration" data-value="909194255">0.909</td>
+              <td class="duration" data-value="909194255">0.909</td>
+              <td class="duration" data-value="909194255">0.909</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_input_the_something_keyword_to_the_search_text_box(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="153623432">0.153</td>
+              <td class="duration" data-value="153623432">0.160</td>
+              <td class="duration" data-value="307246864">0.307</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_quit_the_browser()</td>
+              <td>8</td>
+              <td class="duration" data-value="944872742">0.944</td>
+              <td class="duration" data-value="944872742">1.207</td>
+              <td class="duration" data-value="7558981941">7.558</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_return_to_home_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="664298286">0.664</td>
+              <td class="duration" data-value="664298286">0.712</td>
+              <td class="duration" data-value="1328596572">1.328</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_scroll_to_the_bottom_of_page()</td>
+              <td>3</td>
+              <td class="duration" data-value="57877225">0.057</td>
+              <td class="duration" data-value="57877225">0.129</td>
+              <td class="duration" data-value="173631675">0.173</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_select_the_something_tag(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="954180524">0.954</td>
+              <td class="duration" data-value="954180524">1.653</td>
+              <td class="duration" data-value="3816722098">3.816</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_take_the_screenshot_as_something(String)</td>
+              <td>14</td>
+              <td class="duration" data-value="461147092">0.461</td>
+              <td class="duration" data-value="461147092">0.747</td>
+              <td class="duration" data-value="6456059294">6.456</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.i_wait_for_testimonial_slide_something_display_and_take_the_screenshot(String)</td>
+              <td>8</td>
+              <td class="duration" data-value="4229552829">4.229</td>
+              <td class="duration" data-value="4229552829">4.858</td>
+              <td class="duration" data-value="33836422635">33.836</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_that_only_the_posts_of_something_displayed(String)</td>
+              <td>8</td>
+              <td class="duration" data-value="9135013769">9.135</td>
+              <td class="duration" data-value="9135013769">9.180</td>
+              <td class="duration" data-value="73080110158">1:13.080</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_about_us_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="1030485214">1.030</td>
+              <td class="duration" data-value="1030485214">1.030</td>
+              <td class="duration" data-value="1030485214">1.030</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_affiliate_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="5546702461">5.546</td>
+              <td class="duration" data-value="5546702461">5.546</td>
+              <td class="duration" data-value="5546702461">5.546</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_ali_hunter_install_page_appears()</td>
+              <td>1</td>
+              <td class="duration" data-value="3242282218">3.242</td>
+              <td class="duration" data-value="3242282218">3.242</td>
+              <td class="duration" data-value="3242282218">3.242</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_ali_orders_install_page_appears()</td>
+              <td>1</td>
+              <td class="duration" data-value="5648417688">5.648</td>
+              <td class="duration" data-value="5648417688">5.648</td>
+              <td class="duration" data-value="5648417688">5.648</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_ali_reviews_install_page_appears()</td>
+              <td>1</td>
+              <td class="duration" data-value="2439512582">2.439</td>
+              <td class="duration" data-value="2439512582">2.439</td>
+              <td class="duration" data-value="2439512582">2.439</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_blog_page_has_been_accessed()</td>
+              <td>2</td>
+              <td class="duration" data-value="2041201328">2.041</td>
+              <td class="duration" data-value="2041201328">2.042</td>
+              <td class="duration" data-value="4082402656">4.082</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_contact_us_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="163982575">0.163</td>
+              <td class="duration" data-value="163982575">0.163</td>
+              <td class="duration" data-value="163982575">0.163</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_facebook_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="2720178539">2.720</td>
+              <td class="duration" data-value="2720178539">2.720</td>
+              <td class="duration" data-value="2720178539">2.720</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_fireapps_app_store_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="10621278">0.010</td>
+              <td class="duration" data-value="10621278">0.010</td>
+              <td class="duration" data-value="10621278">0.010</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_help_center_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="4037947327">4.037</td>
+              <td class="duration" data-value="4037947327">4.037</td>
+              <td class="duration" data-value="4037947327">4.037</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_home_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="117034812">0.117</td>
+              <td class="duration" data-value="117034812">0.117</td>
+              <td class="duration" data-value="117034812">0.117</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_instagram_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="2320703383">2.320</td>
+              <td class="duration" data-value="2320703383">2.320</td>
+              <td class="duration" data-value="2320703383">2.320</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_loading_wheel_is_displayed_if_there_are_more_than_4_posts()</td>
+              <td>1</td>
+              <td class="duration" data-value="123094905">0.123</td>
+              <td class="duration" data-value="123094905">0.123</td>
+              <td class="duration" data-value="123094905">0.123</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_privacy_policy_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="30263108">0.030</td>
+              <td class="duration" data-value="30263108">0.030</td>
+              <td class="duration" data-value="30263108">0.030</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_result_contains_the_something_keyword(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="38912525">0.038</td>
+              <td class="duration" data-value="38912525">0.038</td>
+              <td class="duration" data-value="38912525">0.038</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_sales_box_install_page_appears()</td>
+              <td>1</td>
+              <td class="duration" data-value="1448774536">1.448</td>
+              <td class="duration" data-value="1448774536">1.448</td>
+              <td class="duration" data-value="1448774536">1.448</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_shopify_apps_page_has_been_accessed()</td>
+              <td>3</td>
+              <td class="duration" data-value="2007343739">2.007</td>
+              <td class="duration" data-value="2007343739">2.010</td>
+              <td class="duration" data-value="6022031217">6.022</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_term_of_service_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="38492124">0.038</td>
+              <td class="duration" data-value="38492124">0.038</td>
+              <td class="duration" data-value="38492124">0.038</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_text_label_display_after_scroll_to_the_end_of_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="2052913020">2.052</td>
+              <td class="duration" data-value="2052913020">2.052</td>
+              <td class="duration" data-value="2052913020">2.052</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_twitter_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="2790459366">2.790</td>
+              <td class="duration" data-value="2790459366">2.790</td>
+              <td class="duration" data-value="2790459366">2.790</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_whats_new_page_has_been_accessed()</td>
+              <td>5</td>
+              <td class="duration" data-value="39903258">0.039</td>
+              <td class="duration" data-value="39903258">0.048</td>
+              <td class="duration" data-value="199516292">0.199</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_the_youtube_page_has_been_accessed()</td>
+              <td>1</td>
+              <td class="duration" data-value="4442839249">4.442</td>
+              <td class="duration" data-value="4442839249">4.442</td>
+              <td class="duration" data-value="4442839249">4.442</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WebsiteSteps.verify_there_are_no_result_display()</td>
+              <td>1</td>
+              <td class="duration" data-value="31855211">0.031</td>
+              <td class="duration" data-value="31855211">0.031</td>
+              <td class="duration" data-value="31855211">0.031</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>49</td>
+            <td>145</td>
+            <td class="duration">2.074</td>
+            <td class="duration">1:13.080</td>
+            <td class="duration">5:0.794</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
